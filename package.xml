@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>qt_advanced_docking</name>
+  <version>3.8.2</version>
+  <description>
+    Qt Advanced Docking System lets you create customizable layouts using
+    a full featured window docking system similar to what is found in many
+    popular integrated development environments (IDEs) such as Visual Studio.
+  </description>
+  <maintainer email="Levi.Armstrong@swri.org">Levi Armstrong</maintainer>
+  <license>LGPL 2.1</license>
+  <author>Levi Armstrong</author>
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <depend>libqt5-core</depend>
+  <depend>libqt5-widgets</depend>
+  <depend>libqt5-gui</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
