@@ -15,7 +15,8 @@
   <depend>libqt5-core</depend>
   <depend>libqt5-widgets</depend>
   <depend>libqt5-gui</depend>
-
+  <depend>qtbase5-private-dev</depend>
+  
   <export>
     <build_type>cmake</build_type>
   </export>
